@@ -1,0 +1,49 @@
+<scene>
+	<sphere>
+		<pos> 0 0.25 0 </pos>
+		<size> 0.25f </size>
+		<color> 237 118 14 </color>
+		<spec> 50 </spec>
+		<material> 1 </material>
+	</sphere>
+	<sphere>
+		<pos> 0.5 -0.25 0 </pos>
+		<size> 0.25f </size>
+		<color> 255 0 51 </color>
+		<spec> 50 </spec>
+		<material> 1 </material>
+	</sphere>
+	<sphere>
+		<pos> -0.5 0.75 0 </pos>
+		<size> 0.25f </size>
+		<color> 255 220 51 </color>
+		<spec> 50 </spec>
+		<material> 1 </material>
+	</sphere>
+	<camera>
+		<pos> 0 0.55 -2.0 </pos>
+	</camera>
+	<light>
+		<type> 2 </type>
+		<intensity> 0.85f </intensity>
+		<pos> 0.75 1.15 0 </pos>
+	</light>
+	<light>
+		<type> 1 </type>
+		<intensity> 0.1f </intensity>
+	</light>
+	<plane>
+		<pos> 0 20 0 </pos>
+		<dir> 0.0 1.0 0.3 </dir>
+		<color> 175 238 238 </color>
+		<spec> 100 </spec>
+		<material> 1 </material>
+	</plane>
+	<plane>
+		<pos> 0 -0.2 0.0 </pos>
+		<dir> 0.0 1.0 0.3f </dir>
+		<color> 152 251 152 </color>
+		<spec> 100 </spec>
+		<material> 1 </material>
+	</plane>
+</scene>

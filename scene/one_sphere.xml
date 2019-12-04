@@ -1,0 +1,21 @@
+<scene>
+<sphere>
+	<pos> 0 0 0 </pos>
+	<size> 0.25f </size>
+	<color> 255 220 51 </color>
+	<spec> 50 </spec>
+	<material> 1 </material>
+</sphere>
+<camera>
+	<pos> 0 0 -2.0 </pos>
+</camera>
+<light>
+	<type> 2 </type>
+	<intensity> 0.85f </intensity>
+	<pos> 0.75 0 -1 </pos>
+</light>
+<light>
+	<type> 1 </type>
+	<intensity> 0.1f </intensity>
+</light>
+</scene>
