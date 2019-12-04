@@ -1,0 +1,51 @@
+<scene>
+	<cylinder>
+		<pos> 0 0 0 </pos>
+		<dir> 0 1 0 </dir>
+		<size> 0.3f </size>
+		<color> 0 0 255 </color>
+		<spec> 50 </spec>
+		<material> 1 </material>
+	</cylinder>
+	<cylinder>
+		<pos> 0 0 0 </pos>
+		<dir> 1 1 0 </dir>
+		<size> 0.3f </size>
+		<color> 0 0 255 </color>
+		<spec> 50 </spec>
+		<material> 1 </material>
+	</cylinder>
+	<cylinder>
+		<pos> 0 0 0 </pos>
+		<dir> 1 0 0 </dir>
+		<size> 0.3f </size>
+		<color> 0 0 255 </color>
+		<spec> 100 </spec>
+		<material> 1 </material>
+	</cylinder>
+	<cylinder>
+		<pos> 0 0 0 </pos>
+		<dir> 1 -1 0 </dir>
+		<size> 0.3f </size>
+		<color> 0 0 255 </color>
+		<spec> 150 </spec>
+		<material> 1 </material>
+	</cylinder>
+	<camera>
+		<pos> 0 0 -10 </pos>
+	</camera>
+	<light>
+		<type> 2 </type>
+		<intensity> 0.25f </intensity>
+		<pos> 0 0 -3 </pos>
+	</light>
+	<light>
+		<type> 2 </type>
+		<intensity> 0.25f </intensity>
+		<pos> 0 -3 -3 </pos>
+	</light>
+	<light>
+		<type> 1 </type>
+		<intensity> 0.25f </intensity>
+	</light>
+</scene>

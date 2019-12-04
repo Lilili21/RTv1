@@ -1,0 +1,38 @@
+<scene>
+	<light>
+		<type> 1 </type>
+		<intensity> 0.3f </intensity>
+	</light>
+	<camera>
+		<pos> -1.0 0.5 -3.0f </pos>
+	</camera>
+	<cone>
+		<size> 0.5 </size>
+		<pos> -1 0 7 </pos>
+		<dir> 0 2 -0.25f </dir>
+		<color> 0 128 255 </color>
+		<spec> 1 </spec>
+		<material> 1 </material>
+	</cone>
+	<cone>
+		<size> 0.5 </size>
+		<pos> -1 0 7 </pos>
+		<dir> 2 0 -0.25f </dir>
+		<color> 0 255 255 </color>
+		<spec> 500 </spec>
+		<material> 1 </material>
+	</cone>
+	<plane>
+		<pos> 0 -1 0 </pos>
+		<dir> 0.0 1.0 0.3 </dir>
+		<color> 255 255 102 </color>
+		<spec> 100 </spec>
+		<material> 1 </material>
+	</plane>
+
+	<light>
+		<type> 2 </type>
+		<intensity> 0.5f </intensity>
+		<pos> -1 0 2 </pos>
+	</light>
+</scene>
